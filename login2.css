@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: linear-gradient(to right,#a18cd1,#fbc2eb);
+    background-size: cover;
+    background-image: url("Desktop - 1.jpg");
+    
+}
+.login{
+    text-align: center;
+    border-radius: 30px;
+    border: solid;
+    border-width: 0.3px;
+    border-color: rgb(223, 176, 223);
+    color:#fff;
+    height: 360px;
+    width: 400px;
+    margin-left: 700px;
+    backdrop-filter: blur(100px);
+}
+.bg-img{
+    z-index: 2;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin-left: -770px;
+    border-radius: 30px;
+    background-image: url(img1.jpg);
+    padding-bottom: 50px;
+    
+      
+}
+.email{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 75%;
+    background: none;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+
+.log{
+    margin-top: 15px;
+    margin-left: 60px;
+    color: rgb(117, 0, 117);
+    margin-bottom: 40px;
+    margin-left: 0;
+    background: none;
+}
+.login button{
+    width: 78%;
+    border-radius: 30px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(117, 0, 117);
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.logo{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
